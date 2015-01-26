@@ -1,0 +1,74 @@
+/* CSS Document */
+body {
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px; }
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper, #loginform ,#registerform{
+    margin:0 auto;
+    padding-bottom:25px;
+    background-image:url('http://getgadget.co.in/chatmate/back.png');
+    height:95%;
+    width:100%;
+    border:1px solid #ACD8F0; }
+  
+#loginform { padding-top:5%;
+    height: 90%;
+    width: 100%; }
+  
+    #loginform p { color:#ffab00;margin: 5px;font-size: 40px; font-family: Fantasy; }
+    #registerform p { color:#ffab00;margin: 20px;font-size: 40px; font-family: Fantasy; }
+  #name{width:50%;}
+  #name{width:50%;}
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:70%;
+    width:80%;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+
+    width:89%;
+    border:1px solid #ACD8F0; }
+  
+#submit,#refresh { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+#demo{
+    padding-left: 10%;
+}
+#demo2{
+    padding-left: 33%;
+}
+.pa{
+    color:#ffab00;margin: 5px;font-size: 20px; font-family: Palatino; 
+}
+.pam{
+    color:black;margin: 5px;font-size: 20px; font-family: Palatino; 
+}
